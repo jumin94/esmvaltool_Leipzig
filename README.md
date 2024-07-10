@@ -32,9 +32,12 @@ Activate ESMValTool
 
       conda activate esmvaltool
       
-create the configuration file / Create the configuration file
+Create the configuration file (will be saved to a hidden folder (.esvaltool) in your home folder
 
       esmvaltool config get_config_user
+
+      
+Edit the directory paths in the configuration file to match the one uploaded in this repository (config-user.yml) and upload the config-developer.yml to the same folder
       
 Check the installation
 
