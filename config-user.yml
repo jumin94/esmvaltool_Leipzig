@@ -96,7 +96,7 @@ profile_diagnostic: false
 # via ``search_esgf``. Lists are also possible. For site-specific entries and
 # more examples, see below. Comment out these when using a site-specific path.
 rootpath:
-  default: ~/climate_data
+  default: /climca/data
 
 # Directory structure for input data --- [default]/ESGF/BADC/DKRZ/ETHZ/etc.
 # This default setting will work if files have been downloaded by ESMValTool
@@ -108,6 +108,7 @@ drs:
   CMIP6: DKRZ
   CORDEX: DKRZ
   obs4MIPs: DKRZ
+  OBS: default
 
 # Example rootpaths and directory structure that showcases the different
 # projects and also the use of lists
