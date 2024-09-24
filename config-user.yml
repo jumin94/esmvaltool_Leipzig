@@ -25,7 +25,7 @@
 
 # Destination directory where all output will be written
 # Includes log files and performance stats.
-output_dir: ~/esmvaltool_output
+output_dir: /climca/people/YOURNAME/esmvaltool_output
 
 # Auxiliary data directory
 # Used by some recipes to look for additional datasets.
